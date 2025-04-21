@@ -23,7 +23,7 @@ const uploadImage = async (image) => {
     {
       headers: {
         "Content-Type": "multipart/form-data",
-        "X-API-Key": process.env.PICWISH_API_KEY,
+        "X-API-Key": import.meta.env.VITE_PICWISH_API_KEY,
       },
     }
   );
@@ -60,7 +60,7 @@ const fetchEnhancedImage = async (taskId) => {
 
     {
       headers: {
-        "X-API-Key": process.env.PICWISH_API_KEY,
+        "X-API-Key": import.meta.env.VITE_PICWISH_API_KEY,
       },
     }
   );
