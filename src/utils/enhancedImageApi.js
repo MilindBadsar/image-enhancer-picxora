@@ -36,7 +36,7 @@ const uploadImage = async (image) => {
 };
 
 const PollingForEnhancedImage = async (taskId, retries = 0) => {
-  const result = fetchEnhancedImage(taskId);
+  const result = await fetchEnhancedImage(taskId);
 
   if (result.state === 4) {
     console.log("Processing...");
