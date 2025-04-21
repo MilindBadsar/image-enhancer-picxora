@@ -8,7 +8,7 @@ import { MantineProvider } from "@mantine/core";
 function App() {
   return (
     <MantineProvider>
-      <div className="flex flex-col  justify-center items-center  min-h-screen bg-gray-100 py-8 px-4">
+      <div className="flex flex-col  justify-center items-center  min-h-screen bg-gray-100">
         <Header />
         <Home />
         <Footer />
