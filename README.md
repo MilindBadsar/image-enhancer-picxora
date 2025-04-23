@@ -1,12 +1,87 @@
-# React + Vite
+# 🖼️ Picxora - AI Image Enhancer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Transform your images with the power of AI!  
+**Picxora** is a modern web app that lets you effortlessly enhance and upscale your images using advanced AI technology.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **AI-Powered Enhancement:** Upscale and improve image quality in seconds.
+- **Simple Upload:** Drag & drop or select images from your device.
+- **Live Preview:** Instantly see the original and enhanced images side by side.
+- **Download Enhanced Images:** Save your improved images with a single click.
+- **Responsive Design:** Works beautifully on desktop and mobile.
+- **Fast & Secure:** Your images are processed quickly and securely via the PicWish API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **API:** [PicWish AI Image Enhancement API](https://picwish.com/api)
+- **Icons:** Lucide React
+
+---
+
+## ✨ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/MilindBadsar/image-enhancer-picxora.git
+cd image-enhancer
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Set Up Environment Variables
+
+Create a `.env.local` file in the root directory and add your PicWish API key:
+
+```
+VITE_PICWISH_API_KEY=your_api_key_here
+```
+
+> Get your API key from [PicWish Dashboard](https://picwish.com/api).
+
+### 4. Run the App
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+
+---
+
+## 📸 Usage
+
+1. **Upload** an image (JPG, PNG, etc.).
+2. **Wait** for the AI to enhance your image.
+3. **Preview** the original and enhanced images side by side.
+4. **Download** the enhanced image with one click!
+
+---
+
+## 🧑‍💻 Contributing
+
+Contributions are welcome!  
+Feel free to open issues or submit pull requests for new features, bug fixes, or improvements.
+
+---
+
+## 📬 Connect
+
+- [GitHub](https://github.com/MilindBadsar)
+- [LinkedIn](https://www.linkedin.com/in/milindbadsar/)
+- [Twitter](https://x.com/Milind_Badsar)
+- [Email](mailto:2022uch1264@mnit.ac.in)
+
+---
+
+> Made with ❤️ by [Milind Badsar](https://github.com/MilindBadsar)
