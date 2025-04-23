@@ -80,7 +80,7 @@ Feel free to open issues or submit pull requests for new features, bug fixes, or
 - [GitHub](https://github.com/MilindBadsar)
 - [LinkedIn](https://www.linkedin.com/in/milindbadsar/)
 - [Twitter](https://x.com/Milind_Badsar)
-- [Email](mailto:2022uch1264@mnit.ac.in)
+- [Email](mailto:milindbadsar@gmail.com)
 
 ---
 

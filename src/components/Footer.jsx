@@ -8,7 +8,7 @@ const socials = [
     href: "https://www.linkedin.com/in/milindbadsar/",
     icon: Linkedin,
   },
-  { name: "Mail", href: "mailto:2022uch1264@mnit.ac.in", icon: Mail },
+  { name: "Mail", href: "mailto:milindbadsar@gmail.com", icon: Mail },
 ];
 
 export default function FooterNew() {
