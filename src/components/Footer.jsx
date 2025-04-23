@@ -17,9 +17,16 @@ export default function FooterNew() {
       <div className="max-w-7xl mx-auto px-6 py-12 md:py-16 flex flex-col md:flex-row md:justify-between gap-12">
         <div className="flex-1 flex flex-col justify-between">
           <div>
-            <span className="inline-block text-3xl md:text-4xl font-playfair font-extrabold leading-tight bg-gradient-to-br from-purple-300 to-purple-500 bg-clip-text text-transparent animate-fade-in">
-              PixelPolish
-            </span>
+            <a
+              href="https://picxora.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="inline-block text-3xl md:text-4xl font-playfair font-extrabold leading-tight bg-gradient-to-br from-purple-300 to-purple-500 bg-clip-text text-transparent animate-fade-in">
+                Picxora
+              </span>
+            </a>
+
             <p className="text-gray-300 font-medium mt-4 max-w-xs animate-fade-in text-lg">
               Transform your images
               <br />
@@ -54,8 +61,7 @@ export default function FooterNew() {
       <div className="border-t border-purple-400/40">
         <div className="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-5 gap-2">
           <div className="flex items-center text-gray-400 gap-2 text-sm">
-            <Copyright className="w-4 h-4" /> 2025 PixelPolish. All rights
-            reserved.
+            <Copyright className="w-4 h-4" /> 2025 Picxora. All rights reserved.
           </div>
           <div className="text-sm text-gray-400">
             Made with <span className="text-red-500 font-bold">♥</span> by
