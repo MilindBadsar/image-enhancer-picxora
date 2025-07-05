@@ -1,8 +1,7 @@
-import { Github, Twitter, Linkedin, Mail, Copyright } from "lucide-react";
+import { Github, Linkedin, Mail, Copyright } from "lucide-react";
 
 const socials = [
   { name: "Github", href: "https://github.com/MilindBadsar", icon: Github },
-  { name: "Twitter", href: "https://x.com/Milind_Badsar", icon: Twitter },
   {
     name: "Linkedin",
     href: "https://www.linkedin.com/in/milindbadsar/",
