@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "@mantine/core/styles.css";
 import { MantineProvider } from "@mantine/core";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Home />
         <Footer />
+        <Analytics />
       </div>
     </MantineProvider>
   );
