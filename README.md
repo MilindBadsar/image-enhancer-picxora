@@ -79,7 +79,7 @@ Feel free to open issues or submit pull requests for new features, bug fixes, or
 
 - [GitHub](https://github.com/MilindBadsar)
 - [LinkedIn](https://www.linkedin.com/in/milindbadsar/)
-- [Email](mailto:milindbadsar@gmail.com)
+- [Email](mailto:badsarmilind@gmail.com)
 
 ---
 
